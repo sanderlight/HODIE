@@ -27,10 +27,13 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import random
 import uuid
+import os
 
 
 
-openai.api_key = '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'
+
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 def user_login(request):
