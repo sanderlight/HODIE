@@ -35,7 +35,7 @@ from dotenv import load_dotenv
 
 
 
-openai.api_key = "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"
+openai.api_key = "LFETPGvzJ4ZvJGtRPve1T3BlbkFJumoso4uDsRooiDYNQWRi"
 
 
 def user_login(request):
