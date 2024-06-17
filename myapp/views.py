@@ -30,7 +30,7 @@ import uuid
 
 
 
-openai.api_key = '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'
+openai.api_key = 'sk-proj-EGpJ8yDks9sio3iQxR6UT3BlbkFJ9wt77JDeDFu1jwwua1Kh'
 
 
 def user_login(request):
