@@ -28,12 +28,14 @@ from datetime import datetime, timedelta
 import random
 import uuid
 import os
+from dotenv import load_dotenv
 
 
 
 
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+
+api_key = os.environ.get("OPENAI_API_KEY")
 
 
 def user_login(request):
